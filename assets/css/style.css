@@ -125,7 +125,7 @@ h3 {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 35px, 1fr, 1fr;
   gap: 1.5em;
-  width: 90%;
+  width: 100%;
   max-width: 1200px;
   background-color: #fff;
   margin: 1.5em auto;
@@ -172,7 +172,7 @@ h3 {
   width: 90%;
   max-width: 1200px;
   background-color: #fff;
-  margin: 1.5em;
+  margin: 1.5em auto;
   padding: 5px; }
 
 .grillaServicios .titulo {
@@ -291,7 +291,7 @@ h3 {
   width: 90%;
   max-width: 1200px;
   background-color: #fff;
-  margin: 1.5em;
+  margin: 1.5em auto;
   padding: 5px; }
 
 .buenosAires {
