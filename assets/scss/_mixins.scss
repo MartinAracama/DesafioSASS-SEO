@@ -4,13 +4,13 @@
 }
 
 .letraParrafo {
-    @include fontSize(2rem, 200)
+    @include fontSize(.8rem, 500)
 }
 
 .letraSubtitulo {
-    @include fontSize(3rem, 400)
+    @include fontSize(1rem, 600)
 }
 
 .letraTitulo {
-    @include fontSize(4rem, 600)
+    @include fontSize(1.2rem, 600)
 }
