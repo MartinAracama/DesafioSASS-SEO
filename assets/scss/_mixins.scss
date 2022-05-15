@@ -3,14 +3,14 @@
     font-weight: $weigth;
 }
 
-.letraParrafo {
+.letra-parrafo {
     @include fontSize(.8rem, 500)
 }
 
-.letraSubtitulo {
+.letra-subtitulo {
     @include fontSize(1rem, 600)
 }
 
-.letraTitulo {
+.letra-titulo {
     @include fontSize(1.2rem, 600)
 }

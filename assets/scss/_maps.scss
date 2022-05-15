@@ -1,17 +1,17 @@
 $redes: (
-    "Linkedin": #fff,
-    "Facebook": #fff,
-    "Instagram": #fff,
+    "Linkedin": rgb(233, 217, 217),
+    "Facebook": rgb(80, 171, 231),
+    "Instagram": rgb(248, 180, 103),
 );
 
-.botonLinkedin {
+.boton-linkedin {
     color: map-get($map: $redes, $key: Linkedin);
 }
 
-.botonFacebook {
+.boton-facebook {
     color: map-get($map: $redes, $key: Facebook);
 }
 
-.botonInstagram {
+.boton-instagram {
     color: map-get($map: $redes, $key: Instagram);
 }
