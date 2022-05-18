@@ -76,14 +76,7 @@ h3 {
   max-width: 1200px;
   background-color: #e1f1f3;
   margin: 1.5em auto;
-  padding: 5px;
-  /*.div {
-      padding: 15px;
-      margin: 5px;
-      border: $border-style;
-      border-radius: $border-radius-unit;
-      background: $color-background;
-    }*/ }
+  padding: 5px; }
   .container .titulo {
     padding: 15px;
     margin: 5px;
@@ -95,7 +88,9 @@ h3 {
     margin: 5px;
     border: 1px solid #04355a;
     border-radius: 5px;
-    background: #e1f1f3; }
+    background: #e1f1f3;
+    grid-column: 2/4;
+    grid-row: 2/3; }
   .container .imagen-edificio {
     margin: 20px;
     width: 400px;
@@ -105,9 +100,6 @@ h3 {
   .container .titulo {
     grid-column: 2/4;
     grid-row: 1/2; }
-  .container .bienvenidos {
-    grid-column: 2/4;
-    grid-row: 2/3; }
 
 .foto-edificio {
   object-fit: cover;
@@ -133,9 +125,6 @@ h3 {
     border: 1px solid #04355a;
     border-radius: 5px;
     grid-column: 2/4; }
-  .bienvenida .div {
-    border: 1px solid #04355a;
-    border-radius: 5px; }
 
 .grilla-socios {
   display: grid;
@@ -208,9 +197,6 @@ h3 {
   text-align: center;
   padding: 5px; }
 
-/*.parrafo-segundo-titulo {
-  text-align: justify;
-}*/
 .grilla-servicios .consultoria01 {
   grid-column: 1/4;
   text-align: center; }

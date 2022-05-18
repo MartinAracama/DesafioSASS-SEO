@@ -1,3 +1,5 @@
+
+//IMPORTACION DE PARTIALS: VARIABLES - MAPS - MIXINS//
 @import 'variables';
 @import 'mixins';
 @import 'maps';
@@ -88,15 +90,9 @@ h3 {
       border: $border-style;
       border-radius: $border-radius-unit;
       background: $color-background;  
+      grid-column: 2/4;
+      grid-row: 2/3;
     }
-
-    /*.div {
-      padding: 15px;
-      margin: 5px;
-      border: $border-style;
-      border-radius: $border-radius-unit;
-      background: $color-background;
-    }*/
 
     .imagen-edificio {
       margin: 20px;
@@ -109,11 +105,6 @@ h3 {
     .titulo {
       grid-column: 2/4;
       grid-row: 1/2;
-    }
-
-    .bienvenidos {
-      grid-column: 2/4;
-      grid-row: 2/3;
     }
 }
 //FIN NESTING//
@@ -149,11 +140,6 @@ h3 {
     border: $border-style;
     border-radius: $border-radius-unit;
     grid-column: 2/4;
-  }
-
-  .div {
-    border: $border-style;
-    border-radius: $border-radius-unit;
   }
 }
 //FIN NESTING//
@@ -245,10 +231,6 @@ h3 {
   text-align: center;
   padding: 5px;
 }
-
-/*.parrafo-segundo-titulo {
-  text-align: justify;
-}*/
 
 .grilla-servicios .consultoria01 {
   grid-column: 1/4;
